@@ -16,3 +16,12 @@ exports.processPayment = async (req, res) => {
         });
     }
 };
+
+exports.getAllPayments = async (req, res) => {
+    try {
+        const payments = await PaymentModel.find();
+        res.json(payments);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
+};
