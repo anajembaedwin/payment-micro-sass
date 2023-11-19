@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const paymentSchema = new mongoose.Schema({
     amount: {
         type: Number,
-        required: [true, 'A payment must have an amount']
+        required: [true, 'This payment must have an amount']
     },
     date: {
         type: Date,
