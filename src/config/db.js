@@ -2,7 +2,9 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true, useUnifiedTopology: true });
+        const dbConnection = process.env.NODE_ENV === 'production' ? process.env.PROD_DB_CONNECTION : process.env.DEV_DB_CONNECTION;
+        // await mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true, useUnifiedTopology: true });
+        await mongoose.connect(dbConnection);
         console.log('MongoDB connected...');
     } catch (err) {
         console.error(err.message);
@@ -11,3 +13,5 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
+// run with NODE_ENV=development node src/server.js
