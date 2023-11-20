@@ -26,5 +26,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: your-dockerhub-username/payment-micro-sass:latest
+        tags: anajembaedwin/payment-micro-sass:latest
 
