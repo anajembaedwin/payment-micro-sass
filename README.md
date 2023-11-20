@@ -81,7 +81,7 @@ or directly from [https://hub.docker.com/r/anajembaedwin/payment-micro-sass/tags
 
 ## Documentation
 
-You will find a basic documentation for this micro-saas at [https://documenter.getpostman.com/view/16692552/2s9Ye8gv2Z]
+- You will find a basic documentation for this micro-saas at [https://documenter.getpostman.com/view/16692552/2s9Ye8gv2Z]
 ---
 
 Please replace `'your-image-name'`, `'https://github.com/username/project-name.git'`, and `'project-name'` with the actual Docker image name, GitHub repository URL, and project name.

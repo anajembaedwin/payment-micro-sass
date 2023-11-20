@@ -5,9 +5,17 @@ const paymentSchema = new mongoose.Schema({
         type: Number,
         required: [true, 'This payment must have an amount']
     },
+    email: {
+        type: String,
+        required: [true, 'This payment must have an email']
+    },
     date: {
         type: Date,
         default: Date.now
+    },
+    paystackReference: {
+        type: String,
+        required: false
     },
     // Add other fields as necessary
 });
