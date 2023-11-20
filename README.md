@@ -1,6 +1,6 @@
 # Payment Micro Sass
 
-Payment Micro Sass is a Microsass software that utilizes paystack and stripe APIs to process payaments. This project is a proof of concept and isn't meant to be definitive or final.
+Payment Micro Sass is a Microsass software that utilizes paystack and stripe APIs to process payments. This project is a proof of concept and isn't meant to be definitive or final.
 
 ## Features
 
