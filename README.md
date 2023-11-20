@@ -63,6 +63,14 @@ To run this project, you will need to add the following environment variables to
 - `PAYSTACK_SECRET_KEY`
 - `STRIPE_SECRET_KEY`
 
+## Docker Image
+
+You can pull the Docker image of this application from Docker Hub:
+
+```
+docker pull anajembaedwin/payment-micro-sass:latest
+```
+
 ---
 
 Please replace `'your-image-name'`, `'https://github.com/username/project-name.git'`, and `'project-name'` with the actual Docker image name, GitHub repository URL, and project name.
