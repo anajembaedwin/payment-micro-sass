@@ -85,3 +85,5 @@ You will find a basic documentation for this micro-saas at [https://documenter.g
 ---
 
 Please replace `'your-image-name'`, `'https://github.com/username/project-name.git'`, and `'project-name'` with the actual Docker image name, GitHub repository URL, and project name.
+
+- At this time neither paystack nor stripe payments have been added.
