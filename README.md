@@ -71,11 +71,17 @@ You can pull the Docker image of this application from Docker Hub:
 docker pull anajembaedwin/payment-micro-sass:latest
 ```
 
+or directly from [https://hub.docker.com/r/anajembaedwin/payment-micro-sass/tags]
+
 ## Render Web Service
 
-- The web server for this project is hosted on Render, which pulls the Docker image from Docker Hub. You can view the live application at [this link].
+- The web server for this project is hosted on Render, which pulls the Docker image from Docker Hub. You can view the live application at [https://payment-micro-sass.onrender.com/payment/all-payments].
 
 - The Docker image is manually updated on Docker Hub using GitHub Actions. Whenever changes are pushed to the main branch of the GitHub repository, a GitHub Actions workflow builds a new Docker image and pushes it to Docker Hub.
+
+## Documentation
+
+You will find a basic documentation for this micro-saas at [https://documenter.getpostman.com/view/16692552/2s9Ye8gv2Z]
 ---
 
 Please replace `'your-image-name'`, `'https://github.com/username/project-name.git'`, and `'project-name'` with the actual Docker image name, GitHub repository URL, and project name.
