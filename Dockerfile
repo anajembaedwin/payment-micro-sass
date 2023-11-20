@@ -16,5 +16,5 @@ COPY . .
 # Expose port 3000 to the outside world
 EXPOSE 3000
 
-# Start the application
-CMD [ "node", "src/server.js" ]
+# Start the application in production mode
+CMD [ "npm", "run", "start:prod" ]
